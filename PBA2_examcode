@@ -1,0 +1,11 @@
+import re
+
+with open("input.txt", "r") as f:
+    text = f.read()
+
+text = re.sub(r' +', ' ', text)
+
+with open("cleaned.txt", "w") as f:
+    f.write(text)
+
+print("Multiple spaces replaced successfully.")
