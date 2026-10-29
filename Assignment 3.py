@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-# ---------------- Strategy Interface ----------------
+# ---------------- Strategy Interface ---------------
 class PaymentStrategy(ABC):
 
     @abstractmethod
